@@ -1,0 +1,20 @@
+package practice;
+
+public class practice1 {
+	
+	int intArr[] = {1,2,3,4,5,6,7,8,9,10}
+	
+	int sum = 0;
+	for ( int i = 0 ; i < intArr.length; i++){
+		sum += intArr[i]
+				
+	}
+	System.out.println(sum);
+	
+	int sum0 = 0;
+	for (int a : intArr){
+		sum0 += a;
+	}
+	System.out.println(sum0);
+
+}
